@@ -15,11 +15,11 @@ How to build and run this microservice
 2. Run the container
 
    ```
-   $ docker run -dp 8080:8080 template-microservice-nodejs
+   $ docker run -dp 8888:8888 template-microservice-nodejs
    ```
 3. Test the micro service
 
    ```
-   $ curl http://localhost:8080
+   $ curl http://localhost:8888
    Success! The Framework Training template microservice is up and running using Node.js!
    ```
